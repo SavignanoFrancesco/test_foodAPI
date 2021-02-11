@@ -551,16 +551,6 @@ video {
   height: auto;
 }
 
-h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-h2 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .container {
   width: 100%;
 }
@@ -31185,6 +31175,15 @@ h2 {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
 }
+
+/* @layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
