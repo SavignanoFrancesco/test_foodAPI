@@ -1,0 +1,15 @@
+{
+  "name": "test_foodAPI",
+  "version": "1.0.0",
+  "description": "test_foodAPI",
+  "main": "main.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
